@@ -27,7 +27,7 @@ body {
   .container {
     width: 80%;
   }
-  
+
   .inline-list {
     text-align: center;
   }
@@ -37,11 +37,11 @@ body {
   .container {
     margin-top: 3rem;
   }
-  
+
   .hero-title {
     font-size: 2rem;
   }
-  
+
   .lead {
     font-size: 1.1rem;
   }
