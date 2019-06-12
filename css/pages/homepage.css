@@ -1,0 +1,85 @@
+body {
+  background: #333c45;
+  color: #FFF;
+  color: rgba(255,255,255,0.6);
+  font-family: 'Inconsolata', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 40%;
+  margin: 5rem auto 0;
+}
+
+.hero-title {
+  margin: 0 auto 2rem;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.lead {
+  margin: 1.25rem 0 2.5rem;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-device-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  
+  .inline-list {
+    text-align: center;
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  .container {
+    margin-top: 3rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .lead {
+    font-size: 1.1rem;
+  }
+}
+
+.large {
+  font-size: 1.75rem;
+}
+
+a {
+  color: #FFF;
+  opacity: 0.6;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.inline-list {
+  list-style: none;
+  padding: 0;
+}
+
+.inline-list li {
+  display: inline-block;
+}
+
+.pop-hover span {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.pop-hover span:hover {
+  -ms-transform: translate(0,-5px); /* IE 9 */
+  -webkit-transform: translate(0,-5px); /* Chrome, Safari, Opera */
+  transform: translate(0,-5px);
+}
